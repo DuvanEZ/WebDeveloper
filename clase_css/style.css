@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+/* It's good to use alway this two configurations*/
+
+.page-header  {
+  font-size: 1.6rem;
+
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(139, 228, 197);
+
+}
+
+section {
+  width: 65%;
+  min-width: 350px;
+  max-width: 500px;
+  min-height: 50%;
+  
+  background-color: rgb(197, 188, 188);
+  margin: 0 auto;
+}
+
+ 
+h1 {
+  color: coral;
+  font-family: serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* We can notice that the ID is most important than the class thats why if we are trying to modify the same atribute for id an class the system will preffer the changes on the id */
+.title {
+  font-size: 4 rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  margin-top: 1.5rem;
+  list-style: none;
+  padding-left: 1rem;
+
+}
+
+
+.nav li {
+  display: inline-block;
+  margin-top: 1rem;
+  list-style: none;
+
+}
+
+
+
+.nav a {
+  color: aliceblue;
+  padding: 5px;
+  background-color: rgb(44, 143, 110);
+  border-radius: 0.3rem;
+  text-decoration: none;
+  
+}
+
+.nav .blog {
+ 
+  background-color: rgb(202, 123, 238);
+ 
+}
