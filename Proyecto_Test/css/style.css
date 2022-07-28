@@ -126,7 +126,7 @@ main {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--black);
+  color: var(--off-white);
 }
 .main-exchange-container p {
   margin-bottom: 30px;
@@ -179,8 +179,8 @@ main {
   font-weight: 500;
   line-height: 1.9rem;
   color: var(--grey);
-  /* border-bottom: 1px solid #faf8f7; */
-  background-color: var(--just-white);
+  border-bottom: 1px solid #aca39e; 
+  background-color: var(--warm-black);
 }
 .currency-table--container .table__top-left,
 .commissions-table--container .table__top-left {
@@ -232,6 +232,7 @@ main {
   margin-top: 15px;
   padding: 8px;
   background-color: var(--soft-orange);
+  color: #757575;
   border-radius: 8px;
 }
 .commissions-table--date {
@@ -248,6 +249,7 @@ main {
   margin: 7px;
   font-size: 1.2rem;
   line-height: 1.5px;
+  color: #757575;
 }
 
 .main-product-detail {
@@ -292,13 +294,15 @@ main {
   width: 90%;
   min-width: 288px;
   max-width: 400px;
-  height: 152px;
+  min-height: 152px;
   margin: 15px auto;
   padding: 15px;
   background-color: var(--warm-black);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
 }
+/* When adding an image as background the best way to work with it is by using bacckground
+size cover, background position center and no repeat */
 .product-detail--card .clock {
   display: inline-block;
   width: 20px;
@@ -393,6 +397,7 @@ main {
   line-height: 1.8rem;
   color: #757575;
 }
+/* In order to use the horizontal scroll we have to implement overflow-x: scroll and  then add the overscroll behaviors*/
 .plans-container--slider {
   display: flex;
   /* gap: 50px; Aun no está soportado por todos los navegadores :( */
@@ -401,6 +406,7 @@ main {
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
+/* Adding scroll-snap-align will show a center behavior */
 .plans-container--card {
   position: relative;
   scroll-snap-align: center;
