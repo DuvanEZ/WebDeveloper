@@ -3,6 +3,7 @@
   width: 1000px;
   margin: 0 auto;
 }
+/* Remind that we have to use flex-wrap: wrap in order to avoid overflow issues*/
 .product-cards--container {
   display: flex;
   flex-wrap: wrap;
